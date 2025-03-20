@@ -1,4 +1,5 @@
 @import url("./swiper-bundle.min.css");
+
 .swiper {
   width: 600px;
   height: 510px;
@@ -8,4 +9,4 @@
 .swiper img {
   height: 400px;
   width: 500px;
-}/*# sourceMappingURL=swiper.css.map */
+}

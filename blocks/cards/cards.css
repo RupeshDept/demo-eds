@@ -26,6 +26,11 @@
   object-fit: cover;
 }
 
+.whatweoffer ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
 .importantlinks div:nth-child(2) ul {
 display: flex;
 }
@@ -36,7 +41,3 @@ display: flex;
   text-align: center;
 }
 
-.whatweoffer ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-}
