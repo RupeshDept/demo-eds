@@ -1,0 +1,15 @@
+.cardsubinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+}
+
+.cardsubinfo > div {
+  width: 190px;
+}
+
+.cardsubinfo > div > div > h2 {
+  font-family: Butler !important;
+  color: #2b2e8c;
+}/*# sourceMappingURL=cardsubinfo.css.map */
