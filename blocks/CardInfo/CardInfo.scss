@@ -3,14 +3,14 @@
 }
 
 .cardinfo  > div :nth-child(2)  {
-    font-family: Work Sans, sans-serif !important;
+    font-family: "Work Sans, sans-serif" !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .cardinfo  > div :nth-child(2) > h2 {
-    font-family: Butler!important;
+    // font-family: Butler!important;
     color: #2b2e8c;
 }
 
