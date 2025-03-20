@@ -3,5 +3,5 @@ Please always provide the [GitHub issue(s)](../issues) your PR is for, as well a
 Fix #<gh-issue-id>
 
 Test URLs:
-- Before: https://main--{feature/mfone}--{RupeshDept}.aem.live/
-- After: https://<branch>--{feature/mfone}--{RupeshDept}.aem.live/
+- Before: https://main--{demo-eds}--{rupeshdept}.aem.live/
+- After: https://<branch>--{demo-eds}--{rupeshdept}.aem.live/
