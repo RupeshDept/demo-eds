@@ -33,13 +33,19 @@ export default function decorate(block) {
   // SwiperNavBtnNext.classList.add('swiper-button-next')
   // swiper.append(SwiperNavBtnNext)
 
+  let isVertical = false;
+  if (swiper.parentElement.classList.contains('countthree')) {
+    isVertical = true; // Now it is defined globally within the function
+  }
+
   Swiper(swiper, {
     direction: 'horizontal',
     loop: true,
     autoplay: {
       delay: 1000,
     },
-
+    slidesPerView: isVertical ? 3 : 1,
+    spaceBetween: isVertical ? 30 : 0,
     // Pagination
     pagination: {
       el: SwiperPagination,
