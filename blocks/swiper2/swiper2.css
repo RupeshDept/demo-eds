@@ -1,0 +1,13 @@
+@import url("./swiper-bundle.min.css");
+
+.swiper2 {
+  width: 100%;
+  text-align: center;
+}
+
+.swiper2 img {
+  height: 350px;
+  width: 400px;
+     object-fit: cover;
+  display: block;
+}

@@ -1,0 +1,20 @@
+.cardinfo > div {
+  display: flex;
+}
+
+.cardinfo > div :nth-child(2) {
+  font-family: "Work Sans" ,  sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardinfo > div :nth-child(2) > h2 {
+  color: #2b2e8c;
+}
+
+.cardinfo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}

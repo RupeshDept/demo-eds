@@ -1,0 +1,6 @@
+.implinks {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 5px;
+}

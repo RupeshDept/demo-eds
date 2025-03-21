@@ -1,0 +1,24 @@
+.cardinfo > div{
+    display: flex;
+}
+
+.cardinfo  > div :nth-child(2)  {
+    font-family: "Work Sans, sans-serif" !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardinfo  > div :nth-child(2) > h2 {
+    // font-family: Butler!important;
+    color: #2b2e8c;
+}
+
+.cardinfo{
+    // background: url(/_next/static/media/think-bg-laptop.39cc3c20.png);
+    // background: url("/demo-eds/demo-eds/icons/white-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+

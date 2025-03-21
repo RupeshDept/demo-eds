@@ -25,3 +25,19 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+.whatweoffer ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.importantlinks div:nth-child(2) ul {
+display: flex;
+}
+
+.importantlinks div:nth-child(2) ul li {
+  border: none;
+  align-items: center;
+  text-align: center;
+}
+
